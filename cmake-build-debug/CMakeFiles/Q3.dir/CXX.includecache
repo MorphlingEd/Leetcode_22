@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Morphling/Desktop/UoE_2021_2022/STEP/Leetcode_22/Huawei/Q3_note.cpp
+iostream
+-
+queue
+-
+unordered_map
+-
+vector
+-
+

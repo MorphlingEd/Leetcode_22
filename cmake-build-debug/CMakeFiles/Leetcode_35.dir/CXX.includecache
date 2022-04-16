@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Morphling/Desktop/UoE_2021_2022/STEP/Leetcode_22/Binary_Search/35_search_insertion_pos.cpp
+iostream
+-
+vector
+-
+

@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Morphling/Desktop/UoE_2021_2022/STEP/Leetcode_22/Drafts/Format_String_Attack.cpp
+stdio.h
+-
+

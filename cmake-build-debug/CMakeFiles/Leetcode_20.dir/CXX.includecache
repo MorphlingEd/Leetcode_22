@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Morphling/Desktop/UoE_2021_2022/STEP/Leetcode_22/DataStructure/20_Valid_Parentheses.cpp
+iostream
+-
+stack
+-
+
