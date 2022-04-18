@@ -327,6 +327,19 @@ Leetcode_300\fast:
 .PHONY : Leetcode_300\fast
 
 #=============================================================================
+# Target rules for targets named 897
+
+# Build rule for target.
+897: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 897
+.PHONY : 897
+
+# fast build rule for target.
+897\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\897.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\897.dir\build
+.PHONY : 897\fast
+
+#=============================================================================
 # Target rules for targets named Q1
 
 # Build rule for target.
@@ -782,6 +795,19 @@ Conversion\fast:
 .PHONY : Conversion\fast
 
 #=============================================================================
+# Target rules for targets named 3
+
+# Build rule for target.
+3 : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 3
+.PHONY : 3
+
+# fast build rule for target.
+3\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\3.dir\build
+.PHONY : 3\fast
+
+#=============================================================================
 # Target rules for targets named UF
 
 # Build rule for target.
@@ -1028,6 +1054,97 @@ Q2\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\714.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\714.dir\build
 .PHONY : 714\fast
 
+#=============================================================================
+# Target rules for targets named 174
+
+# Build rule for target.
+174: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 174
+.PHONY : 174
+
+# fast build rule for target.
+174\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\174.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\174.dir\build
+.PHONY : 174\fast
+
+#=============================================================================
+# Target rules for targets named 312
+
+# Build rule for target.
+312: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 312
+.PHONY : 312
+
+# fast build rule for target.
+312\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\312.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\312.dir\build
+.PHONY : 312\fast
+
+#=============================================================================
+# Target rules for targets named 230
+
+# Build rule for target.
+230: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 230
+.PHONY : 230
+
+# fast build rule for target.
+230\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\230.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\230.dir\build
+.PHONY : 230\fast
+
+#=============================================================================
+# Target rules for targets named 76
+
+# Build rule for target.
+76: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 76
+.PHONY : 76
+
+# fast build rule for target.
+76\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\76.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\76.dir\build
+.PHONY : 76\fast
+
+#=============================================================================
+# Target rules for targets named 567
+
+# Build rule for target.
+567: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 567
+.PHONY : 567
+
+# fast build rule for target.
+567\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\567.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\567.dir\build
+.PHONY : 567\fast
+
+#=============================================================================
+# Target rules for targets named 438
+
+# Build rule for target.
+438: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 438
+.PHONY : 438
+
+# fast build rule for target.
+438\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\438.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\438.dir\build
+.PHONY : 438\fast
+
+#=============================================================================
+# Target rules for targets named 241
+
+# Build rule for target.
+241: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 241
+.PHONY : 241
+
+# fast build rule for target.
+241\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\241.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\241.dir\build
+.PHONY : 241\fast
+
 Backtracking\22_Generate_Parenthesis.obj: Backtracking\22_Generate_Parenthesis.cpp.obj
 .PHONY : Backtracking\22_Generate_Parenthesis.obj
 
@@ -1051,6 +1168,30 @@ Backtracking\22_Generate_Parenthesis.s: Backtracking\22_Generate_Parenthesis.cpp
 Backtracking\22_Generate_Parenthesis.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\22.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\22.dir\Backtracking\22_Generate_Parenthesis.cpp.s
 .PHONY : Backtracking\22_Generate_Parenthesis.cpp.s
+
+Backtracking\241_Different_Ways_Parenthesis.obj: Backtracking\241_Different_Ways_Parenthesis.cpp.obj
+.PHONY : Backtracking\241_Different_Ways_Parenthesis.obj
+
+# target to build an object file
+Backtracking\241_Different_Ways_Parenthesis.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\241.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\241.dir\Backtracking\241_Different_Ways_Parenthesis.cpp.obj
+.PHONY : Backtracking\241_Different_Ways_Parenthesis.cpp.obj
+
+Backtracking\241_Different_Ways_Parenthesis.i: Backtracking\241_Different_Ways_Parenthesis.cpp.i
+.PHONY : Backtracking\241_Different_Ways_Parenthesis.i
+
+# target to preprocess a source file
+Backtracking\241_Different_Ways_Parenthesis.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\241.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\241.dir\Backtracking\241_Different_Ways_Parenthesis.cpp.i
+.PHONY : Backtracking\241_Different_Ways_Parenthesis.cpp.i
+
+Backtracking\241_Different_Ways_Parenthesis.s: Backtracking\241_Different_Ways_Parenthesis.cpp.s
+.PHONY : Backtracking\241_Different_Ways_Parenthesis.s
+
+# target to generate assembly for a file
+Backtracking\241_Different_Ways_Parenthesis.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\241.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\241.dir\Backtracking\241_Different_Ways_Parenthesis.cpp.s
+.PHONY : Backtracking\241_Different_Ways_Parenthesis.cpp.s
 
 Backtracking\51_N_Queens.obj: Backtracking\51_N_Queens.cpp.obj
 .PHONY : Backtracking\51_N_Queens.obj
@@ -1220,6 +1361,30 @@ Binary_Tree\111_Min_Depth_BT.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Min_Depth_BT.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Min_Depth_BT.dir\Binary_Tree\111_Min_Depth_BT.cpp.s
 .PHONY : Binary_Tree\111_Min_Depth_BT.cpp.s
 
+Binary_Tree\230_Kth_Smallest_BST.obj: Binary_Tree\230_Kth_Smallest_BST.cpp.obj
+.PHONY : Binary_Tree\230_Kth_Smallest_BST.obj
+
+# target to build an object file
+Binary_Tree\230_Kth_Smallest_BST.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\230.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\230.dir\Binary_Tree\230_Kth_Smallest_BST.cpp.obj
+.PHONY : Binary_Tree\230_Kth_Smallest_BST.cpp.obj
+
+Binary_Tree\230_Kth_Smallest_BST.i: Binary_Tree\230_Kth_Smallest_BST.cpp.i
+.PHONY : Binary_Tree\230_Kth_Smallest_BST.i
+
+# target to preprocess a source file
+Binary_Tree\230_Kth_Smallest_BST.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\230.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\230.dir\Binary_Tree\230_Kth_Smallest_BST.cpp.i
+.PHONY : Binary_Tree\230_Kth_Smallest_BST.cpp.i
+
+Binary_Tree\230_Kth_Smallest_BST.s: Binary_Tree\230_Kth_Smallest_BST.cpp.s
+.PHONY : Binary_Tree\230_Kth_Smallest_BST.s
+
+# target to generate assembly for a file
+Binary_Tree\230_Kth_Smallest_BST.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\230.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\230.dir\Binary_Tree\230_Kth_Smallest_BST.cpp.s
+.PHONY : Binary_Tree\230_Kth_Smallest_BST.cpp.s
+
 Binary_Tree\297_Serialize_and_Deserialize_BT.obj: Binary_Tree\297_Serialize_and_Deserialize_BT.cpp.obj
 .PHONY : Binary_Tree\297_Serialize_and_Deserialize_BT.obj
 
@@ -1291,6 +1456,30 @@ Binary_Tree\652_Duplicate_Subtree.s: Binary_Tree\652_Duplicate_Subtree.cpp.s
 Binary_Tree\652_Duplicate_Subtree.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Duplicate_Subtree.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Duplicate_Subtree.dir\Binary_Tree\652_Duplicate_Subtree.cpp.s
 .PHONY : Binary_Tree\652_Duplicate_Subtree.cpp.s
+
+Binary_Tree\897_Increasing_Order_Search_Tree.obj: Binary_Tree\897_Increasing_Order_Search_Tree.cpp.obj
+.PHONY : Binary_Tree\897_Increasing_Order_Search_Tree.obj
+
+# target to build an object file
+Binary_Tree\897_Increasing_Order_Search_Tree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\897.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\897.dir\Binary_Tree\897_Increasing_Order_Search_Tree.cpp.obj
+.PHONY : Binary_Tree\897_Increasing_Order_Search_Tree.cpp.obj
+
+Binary_Tree\897_Increasing_Order_Search_Tree.i: Binary_Tree\897_Increasing_Order_Search_Tree.cpp.i
+.PHONY : Binary_Tree\897_Increasing_Order_Search_Tree.i
+
+# target to preprocess a source file
+Binary_Tree\897_Increasing_Order_Search_Tree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\897.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\897.dir\Binary_Tree\897_Increasing_Order_Search_Tree.cpp.i
+.PHONY : Binary_Tree\897_Increasing_Order_Search_Tree.cpp.i
+
+Binary_Tree\897_Increasing_Order_Search_Tree.s: Binary_Tree\897_Increasing_Order_Search_Tree.cpp.s
+.PHONY : Binary_Tree\897_Increasing_Order_Search_Tree.s
+
+# target to generate assembly for a file
+Binary_Tree\897_Increasing_Order_Search_Tree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\897.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\897.dir\Binary_Tree\897_Increasing_Order_Search_Tree.cpp.s
+.PHONY : Binary_Tree\897_Increasing_Order_Search_Tree.cpp.s
 
 DataStructure\141_Linked_List_Cycle.obj: DataStructure\141_Linked_List_Cycle.cpp.obj
 .PHONY : DataStructure\141_Linked_List_Cycle.obj
@@ -1676,6 +1865,30 @@ Double_Pointer\34_find_first_and_last.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Leetcode_34.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Leetcode_34.dir\Double_Pointer\34_find_first_and_last.cpp.s
 .PHONY : Double_Pointer\34_find_first_and_last.cpp.s
 
+Double_Pointer\3_Longest_non_repeat_Substring.obj: Double_Pointer\3_Longest_non_repeat_Substring.cpp.obj
+.PHONY : Double_Pointer\3_Longest_non_repeat_Substring.obj
+
+# target to build an object file
+Double_Pointer\3_Longest_non_repeat_Substring.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\3.dir\Double_Pointer\3_Longest_non_repeat_Substring.cpp.obj
+.PHONY : Double_Pointer\3_Longest_non_repeat_Substring.cpp.obj
+
+Double_Pointer\3_Longest_non_repeat_Substring.i: Double_Pointer\3_Longest_non_repeat_Substring.cpp.i
+.PHONY : Double_Pointer\3_Longest_non_repeat_Substring.i
+
+# target to preprocess a source file
+Double_Pointer\3_Longest_non_repeat_Substring.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\3.dir\Double_Pointer\3_Longest_non_repeat_Substring.cpp.i
+.PHONY : Double_Pointer\3_Longest_non_repeat_Substring.cpp.i
+
+Double_Pointer\3_Longest_non_repeat_Substring.s: Double_Pointer\3_Longest_non_repeat_Substring.cpp.s
+.PHONY : Double_Pointer\3_Longest_non_repeat_Substring.s
+
+# target to generate assembly for a file
+Double_Pointer\3_Longest_non_repeat_Substring.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\3.dir\Double_Pointer\3_Longest_non_repeat_Substring.cpp.s
+.PHONY : Double_Pointer\3_Longest_non_repeat_Substring.cpp.s
+
 Double_Pointer\42_Trapping_Rain_Water.obj: Double_Pointer\42_Trapping_Rain_Water.cpp.obj
 .PHONY : Double_Pointer\42_Trapping_Rain_Water.obj
 
@@ -1700,6 +1913,54 @@ Double_Pointer\42_Trapping_Rain_Water.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Trapping_Rain.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Trapping_Rain.dir\Double_Pointer\42_Trapping_Rain_Water.cpp.s
 .PHONY : Double_Pointer\42_Trapping_Rain_Water.cpp.s
 
+Double_Pointer\438_Find_all_Anagrams_in_String.obj: Double_Pointer\438_Find_all_Anagrams_in_String.cpp.obj
+.PHONY : Double_Pointer\438_Find_all_Anagrams_in_String.obj
+
+# target to build an object file
+Double_Pointer\438_Find_all_Anagrams_in_String.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\438.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\438.dir\Double_Pointer\438_Find_all_Anagrams_in_String.cpp.obj
+.PHONY : Double_Pointer\438_Find_all_Anagrams_in_String.cpp.obj
+
+Double_Pointer\438_Find_all_Anagrams_in_String.i: Double_Pointer\438_Find_all_Anagrams_in_String.cpp.i
+.PHONY : Double_Pointer\438_Find_all_Anagrams_in_String.i
+
+# target to preprocess a source file
+Double_Pointer\438_Find_all_Anagrams_in_String.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\438.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\438.dir\Double_Pointer\438_Find_all_Anagrams_in_String.cpp.i
+.PHONY : Double_Pointer\438_Find_all_Anagrams_in_String.cpp.i
+
+Double_Pointer\438_Find_all_Anagrams_in_String.s: Double_Pointer\438_Find_all_Anagrams_in_String.cpp.s
+.PHONY : Double_Pointer\438_Find_all_Anagrams_in_String.s
+
+# target to generate assembly for a file
+Double_Pointer\438_Find_all_Anagrams_in_String.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\438.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\438.dir\Double_Pointer\438_Find_all_Anagrams_in_String.cpp.s
+.PHONY : Double_Pointer\438_Find_all_Anagrams_in_String.cpp.s
+
+Double_Pointer\567_Permutation_in_string.obj: Double_Pointer\567_Permutation_in_string.cpp.obj
+.PHONY : Double_Pointer\567_Permutation_in_string.obj
+
+# target to build an object file
+Double_Pointer\567_Permutation_in_string.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\567.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\567.dir\Double_Pointer\567_Permutation_in_string.cpp.obj
+.PHONY : Double_Pointer\567_Permutation_in_string.cpp.obj
+
+Double_Pointer\567_Permutation_in_string.i: Double_Pointer\567_Permutation_in_string.cpp.i
+.PHONY : Double_Pointer\567_Permutation_in_string.i
+
+# target to preprocess a source file
+Double_Pointer\567_Permutation_in_string.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\567.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\567.dir\Double_Pointer\567_Permutation_in_string.cpp.i
+.PHONY : Double_Pointer\567_Permutation_in_string.cpp.i
+
+Double_Pointer\567_Permutation_in_string.s: Double_Pointer\567_Permutation_in_string.cpp.s
+.PHONY : Double_Pointer\567_Permutation_in_string.s
+
+# target to generate assembly for a file
+Double_Pointer\567_Permutation_in_string.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\567.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\567.dir\Double_Pointer\567_Permutation_in_string.cpp.s
+.PHONY : Double_Pointer\567_Permutation_in_string.cpp.s
+
 Double_Pointer\56_Merge_Intervals.obj: Double_Pointer\56_Merge_Intervals.cpp.obj
 .PHONY : Double_Pointer\56_Merge_Intervals.obj
 
@@ -1723,6 +1984,30 @@ Double_Pointer\56_Merge_Intervals.s: Double_Pointer\56_Merge_Intervals.cpp.s
 Double_Pointer\56_Merge_Intervals.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Merge_Intervals.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Merge_Intervals.dir\Double_Pointer\56_Merge_Intervals.cpp.s
 .PHONY : Double_Pointer\56_Merge_Intervals.cpp.s
+
+Double_Pointer\76_Min_Window_Substring.obj: Double_Pointer\76_Min_Window_Substring.cpp.obj
+.PHONY : Double_Pointer\76_Min_Window_Substring.obj
+
+# target to build an object file
+Double_Pointer\76_Min_Window_Substring.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\76.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\76.dir\Double_Pointer\76_Min_Window_Substring.cpp.obj
+.PHONY : Double_Pointer\76_Min_Window_Substring.cpp.obj
+
+Double_Pointer\76_Min_Window_Substring.i: Double_Pointer\76_Min_Window_Substring.cpp.i
+.PHONY : Double_Pointer\76_Min_Window_Substring.i
+
+# target to preprocess a source file
+Double_Pointer\76_Min_Window_Substring.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\76.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\76.dir\Double_Pointer\76_Min_Window_Substring.cpp.i
+.PHONY : Double_Pointer\76_Min_Window_Substring.cpp.i
+
+Double_Pointer\76_Min_Window_Substring.s: Double_Pointer\76_Min_Window_Substring.cpp.s
+.PHONY : Double_Pointer\76_Min_Window_Substring.s
+
+# target to generate assembly for a file
+Double_Pointer\76_Min_Window_Substring.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\76.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\76.dir\Double_Pointer\76_Min_Window_Substring.cpp.s
+.PHONY : Double_Pointer\76_Min_Window_Substring.cpp.s
 
 Double_Pointer\986_Interval_List_Intersection.obj: Double_Pointer\986_Interval_List_Intersection.cpp.obj
 .PHONY : Double_Pointer\986_Interval_List_Intersection.obj
@@ -1940,6 +2225,30 @@ Dynamic_Programming\123_Best_Time_Stock_III.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\123.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\123.dir\Dynamic_Programming\123_Best_Time_Stock_III.cpp.s
 .PHONY : Dynamic_Programming\123_Best_Time_Stock_III.cpp.s
 
+Dynamic_Programming\174_Dungeon_game.obj: Dynamic_Programming\174_Dungeon_game.cpp.obj
+.PHONY : Dynamic_Programming\174_Dungeon_game.obj
+
+# target to build an object file
+Dynamic_Programming\174_Dungeon_game.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\174.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\174.dir\Dynamic_Programming\174_Dungeon_game.cpp.obj
+.PHONY : Dynamic_Programming\174_Dungeon_game.cpp.obj
+
+Dynamic_Programming\174_Dungeon_game.i: Dynamic_Programming\174_Dungeon_game.cpp.i
+.PHONY : Dynamic_Programming\174_Dungeon_game.i
+
+# target to preprocess a source file
+Dynamic_Programming\174_Dungeon_game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\174.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\174.dir\Dynamic_Programming\174_Dungeon_game.cpp.i
+.PHONY : Dynamic_Programming\174_Dungeon_game.cpp.i
+
+Dynamic_Programming\174_Dungeon_game.s: Dynamic_Programming\174_Dungeon_game.cpp.s
+.PHONY : Dynamic_Programming\174_Dungeon_game.s
+
+# target to generate assembly for a file
+Dynamic_Programming\174_Dungeon_game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\174.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\174.dir\Dynamic_Programming\174_Dungeon_game.cpp.s
+.PHONY : Dynamic_Programming\174_Dungeon_game.cpp.s
+
 Dynamic_Programming\188_Best_Time_Stock_IV.obj: Dynamic_Programming\188_Best_Time_Stock_IV.cpp.obj
 .PHONY : Dynamic_Programming\188_Best_Time_Stock_IV.obj
 
@@ -2059,6 +2368,30 @@ Dynamic_Programming\309_Best_Time_Stock_Cooldown.s: Dynamic_Programming\309_Best
 Dynamic_Programming\309_Best_Time_Stock_Cooldown.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\309.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\309.dir\Dynamic_Programming\309_Best_Time_Stock_Cooldown.cpp.s
 .PHONY : Dynamic_Programming\309_Best_Time_Stock_Cooldown.cpp.s
+
+Dynamic_Programming\312_Burst_Ballons.obj: Dynamic_Programming\312_Burst_Ballons.cpp.obj
+.PHONY : Dynamic_Programming\312_Burst_Ballons.obj
+
+# target to build an object file
+Dynamic_Programming\312_Burst_Ballons.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\312.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\312.dir\Dynamic_Programming\312_Burst_Ballons.cpp.obj
+.PHONY : Dynamic_Programming\312_Burst_Ballons.cpp.obj
+
+Dynamic_Programming\312_Burst_Ballons.i: Dynamic_Programming\312_Burst_Ballons.cpp.i
+.PHONY : Dynamic_Programming\312_Burst_Ballons.i
+
+# target to preprocess a source file
+Dynamic_Programming\312_Burst_Ballons.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\312.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\312.dir\Dynamic_Programming\312_Burst_Ballons.cpp.i
+.PHONY : Dynamic_Programming\312_Burst_Ballons.cpp.i
+
+Dynamic_Programming\312_Burst_Ballons.s: Dynamic_Programming\312_Burst_Ballons.cpp.s
+.PHONY : Dynamic_Programming\312_Burst_Ballons.s
+
+# target to generate assembly for a file
+Dynamic_Programming\312_Burst_Ballons.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\312.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\312.dir\Dynamic_Programming\312_Burst_Ballons.cpp.s
+.PHONY : Dynamic_Programming\312_Burst_Ballons.cpp.s
 
 Dynamic_Programming\322_Coin_Change.obj: Dynamic_Programming\322_Coin_Change.cpp.obj
 .PHONY : Dynamic_Programming\322_Coin_Change.obj
@@ -2748,20 +3081,29 @@ help:
 	@echo ... 142
 	@echo ... 15
 	@echo ... 160
+	@echo ... 174
 	@echo ... 188
 	@echo ... 207
 	@echo ... 21
 	@echo ... 210
 	@echo ... 22
 	@echo ... 23
+	@echo ... 230
 	@echo ... 234
+	@echo ... 241
 	@echo ... 25
 	@echo ... 297
+	@echo ... 3
 	@echo ... 309
+	@echo ... 312
 	@echo ... 416
+	@echo ... 438
 	@echo ... 51
 	@echo ... 538
+	@echo ... 567
 	@echo ... 714
+	@echo ... 76
+	@echo ... 897
 	@echo ... All_Paths_Src_Tgt
 	@echo ... Control_Hijack
 	@echo ... Conversion
@@ -2814,6 +3156,9 @@ help:
 	@echo ... Backtracking/22_Generate_Parenthesis.obj
 	@echo ... Backtracking/22_Generate_Parenthesis.i
 	@echo ... Backtracking/22_Generate_Parenthesis.s
+	@echo ... Backtracking/241_Different_Ways_Parenthesis.obj
+	@echo ... Backtracking/241_Different_Ways_Parenthesis.i
+	@echo ... Backtracking/241_Different_Ways_Parenthesis.s
 	@echo ... Backtracking/51_N_Queens.obj
 	@echo ... Backtracking/51_N_Queens.i
 	@echo ... Backtracking/51_N_Queens.s
@@ -2835,6 +3180,9 @@ help:
 	@echo ... Binary_Tree/111_Min_Depth_BT.obj
 	@echo ... Binary_Tree/111_Min_Depth_BT.i
 	@echo ... Binary_Tree/111_Min_Depth_BT.s
+	@echo ... Binary_Tree/230_Kth_Smallest_BST.obj
+	@echo ... Binary_Tree/230_Kth_Smallest_BST.i
+	@echo ... Binary_Tree/230_Kth_Smallest_BST.s
 	@echo ... Binary_Tree/297_Serialize_and_Deserialize_BT.obj
 	@echo ... Binary_Tree/297_Serialize_and_Deserialize_BT.i
 	@echo ... Binary_Tree/297_Serialize_and_Deserialize_BT.s
@@ -2844,6 +3192,9 @@ help:
 	@echo ... Binary_Tree/652_Duplicate_Subtree.obj
 	@echo ... Binary_Tree/652_Duplicate_Subtree.i
 	@echo ... Binary_Tree/652_Duplicate_Subtree.s
+	@echo ... Binary_Tree/897_Increasing_Order_Search_Tree.obj
+	@echo ... Binary_Tree/897_Increasing_Order_Search_Tree.i
+	@echo ... Binary_Tree/897_Increasing_Order_Search_Tree.s
 	@echo ... DataStructure/141_Linked_List_Cycle.obj
 	@echo ... DataStructure/141_Linked_List_Cycle.i
 	@echo ... DataStructure/141_Linked_List_Cycle.s
@@ -2892,12 +3243,24 @@ help:
 	@echo ... Double_Pointer/34_find_first_and_last.obj
 	@echo ... Double_Pointer/34_find_first_and_last.i
 	@echo ... Double_Pointer/34_find_first_and_last.s
+	@echo ... Double_Pointer/3_Longest_non_repeat_Substring.obj
+	@echo ... Double_Pointer/3_Longest_non_repeat_Substring.i
+	@echo ... Double_Pointer/3_Longest_non_repeat_Substring.s
 	@echo ... Double_Pointer/42_Trapping_Rain_Water.obj
 	@echo ... Double_Pointer/42_Trapping_Rain_Water.i
 	@echo ... Double_Pointer/42_Trapping_Rain_Water.s
+	@echo ... Double_Pointer/438_Find_all_Anagrams_in_String.obj
+	@echo ... Double_Pointer/438_Find_all_Anagrams_in_String.i
+	@echo ... Double_Pointer/438_Find_all_Anagrams_in_String.s
+	@echo ... Double_Pointer/567_Permutation_in_string.obj
+	@echo ... Double_Pointer/567_Permutation_in_string.i
+	@echo ... Double_Pointer/567_Permutation_in_string.s
 	@echo ... Double_Pointer/56_Merge_Intervals.obj
 	@echo ... Double_Pointer/56_Merge_Intervals.i
 	@echo ... Double_Pointer/56_Merge_Intervals.s
+	@echo ... Double_Pointer/76_Min_Window_Substring.obj
+	@echo ... Double_Pointer/76_Min_Window_Substring.i
+	@echo ... Double_Pointer/76_Min_Window_Substring.s
 	@echo ... Double_Pointer/986_Interval_List_Intersection.obj
 	@echo ... Double_Pointer/986_Interval_List_Intersection.i
 	@echo ... Double_Pointer/986_Interval_List_Intersection.s
@@ -2925,6 +3288,9 @@ help:
 	@echo ... Dynamic_Programming/123_Best_Time_Stock_III.obj
 	@echo ... Dynamic_Programming/123_Best_Time_Stock_III.i
 	@echo ... Dynamic_Programming/123_Best_Time_Stock_III.s
+	@echo ... Dynamic_Programming/174_Dungeon_game.obj
+	@echo ... Dynamic_Programming/174_Dungeon_game.i
+	@echo ... Dynamic_Programming/174_Dungeon_game.s
 	@echo ... Dynamic_Programming/188_Best_Time_Stock_IV.obj
 	@echo ... Dynamic_Programming/188_Best_Time_Stock_IV.i
 	@echo ... Dynamic_Programming/188_Best_Time_Stock_IV.s
@@ -2940,6 +3306,9 @@ help:
 	@echo ... Dynamic_Programming/309_Best_Time_Stock_Cooldown.obj
 	@echo ... Dynamic_Programming/309_Best_Time_Stock_Cooldown.i
 	@echo ... Dynamic_Programming/309_Best_Time_Stock_Cooldown.s
+	@echo ... Dynamic_Programming/312_Burst_Ballons.obj
+	@echo ... Dynamic_Programming/312_Burst_Ballons.i
+	@echo ... Dynamic_Programming/312_Burst_Ballons.s
 	@echo ... Dynamic_Programming/322_Coin_Change.obj
 	@echo ... Dynamic_Programming/322_Coin_Change.i
 	@echo ... Dynamic_Programming/322_Coin_Change.s
