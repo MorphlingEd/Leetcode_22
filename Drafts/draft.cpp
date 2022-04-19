@@ -26,21 +26,24 @@ int main()
 //    cout << endl;
 //
 //    return 0;
-    string S;
-    cin >> S;
+//    string S;
+//    cin >> S;
+//
+//    unordered_map<char, int> records;
+//    for (const char& c : S)
+//        records[c]++;
+//
+//    int res = 1, n = S.size();
+//    for (int i = 1; i <= n; i++)
+//        res *= i;
+//
+//    for (auto& tup : records)
+//        if (tup.second > 1)
+//            for (int i = 1; i <= tup.second; i++)
+//                res /= i;
+//    cout << res << endl;
+    for (float f = 0; f < 1.1; f += 0.1)
+        cout << f+0.5 <<  ": " << round(f + 0.5) << endl;
 
-    unordered_map<char, int> records;
-    for (const char& c : S)
-        records[c]++;
-
-    int res = 1, n = S.size();
-    for (int i = 1; i <= n; i++)
-        res *= i;
-
-    for (auto& tup : records)
-        if (tup.second > 1)
-            for (int i = 1; i <= tup.second; i++)
-                res /= i;
-    cout << res << endl;
     return 0;
 }

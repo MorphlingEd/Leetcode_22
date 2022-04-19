@@ -1133,6 +1133,19 @@ Q2\fast:
 .PHONY : 438\fast
 
 #=============================================================================
+# Target rules for targets named 27
+
+# Build rule for target.
+27: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 27
+.PHONY : 27
+
+# fast build rule for target.
+27\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\27.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\27.dir\build
+.PHONY : 27\fast
+
+#=============================================================================
 # Target rules for targets named 241
 
 # Build rule for target.
@@ -1144,6 +1157,162 @@ Q2\fast:
 241\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\241.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\241.dir\build
 .PHONY : 241\fast
+
+#=============================================================================
+# Target rules for targets named 283
+
+# Build rule for target.
+283: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 283
+.PHONY : 283
+
+# fast build rule for target.
+283\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\283.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\283.dir\build
+.PHONY : 283\fast
+
+#=============================================================================
+# Target rules for targets named 26
+
+# Build rule for target.
+26: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 26
+.PHONY : 26
+
+# fast build rule for target.
+26\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\26.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\26.dir\build
+.PHONY : 26\fast
+
+#=============================================================================
+# Target rules for targets named 83
+
+# Build rule for target.
+83: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 83
+.PHONY : 83
+
+# fast build rule for target.
+83\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\83.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\83.dir\build
+.PHONY : 83\fast
+
+#=============================================================================
+# Target rules for targets named 990
+
+# Build rule for target.
+990: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 990
+.PHONY : 990
+
+# fast build rule for target.
+990\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\990.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\990.dir\build
+.PHONY : 990\fast
+
+#=============================================================================
+# Target rules for targets named 301
+
+# Build rule for target.
+301: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 301
+.PHONY : 301
+
+# fast build rule for target.
+301\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\301.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\301.dir\build
+.PHONY : 301\fast
+
+#=============================================================================
+# Target rules for targets named 310
+
+# Build rule for target.
+310: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 310
+.PHONY : 310
+
+# fast build rule for target.
+310\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\310.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\310.dir\build
+.PHONY : 310\fast
+
+#=============================================================================
+# Target rules for targets named 875
+
+# Build rule for target.
+875: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 875
+.PHONY : 875
+
+# fast build rule for target.
+875\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\875.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\875.dir\build
+.PHONY : 875\fast
+
+#=============================================================================
+# Target rules for targets named 1011
+
+# Build rule for target.
+1011: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 1011
+.PHONY : 1011
+
+# fast build rule for target.
+1011\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1011.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\1011.dir\build
+.PHONY : 1011\fast
+
+#=============================================================================
+# Target rules for targets named 172
+
+# Build rule for target.
+172: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 172
+.PHONY : 172
+
+# fast build rule for target.
+172\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\172.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\172.dir\build
+.PHONY : 172\fast
+
+#=============================================================================
+# Target rules for targets named Freelent_Q1
+
+# Build rule for target.
+Freelent_Q1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Freelent_Q1
+.PHONY : Freelent_Q1
+
+# fast build rule for target.
+Freelent_Q1\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Freelent_Q1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Freelent_Q1.dir\build
+.PHONY : Freelent_Q1\fast
+
+#=============================================================================
+# Target rules for targets named Freelent_Q2
+
+# Build rule for target.
+Freelent_Q2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Freelent_Q2
+.PHONY : Freelent_Q2
+
+# fast build rule for target.
+Freelent_Q2\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Freelent_Q2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Freelent_Q2.dir\build
+.PHONY : Freelent_Q2\fast
+
+#=============================================================================
+# Target rules for targets named Freelent_D
+
+# Build rule for target.
+Freelent_D: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Freelent_D
+.PHONY : Freelent_D
+
+# fast build rule for target.
+Freelent_D\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Freelent_D.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Freelent_D.dir\build
+.PHONY : Freelent_D\fast
 
 Backtracking\22_Generate_Parenthesis.obj: Backtracking\22_Generate_Parenthesis.cpp.obj
 .PHONY : Backtracking\22_Generate_Parenthesis.obj
@@ -1217,6 +1386,30 @@ Backtracking\51_N_Queens.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\51.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\51.dir\Backtracking\51_N_Queens.cpp.s
 .PHONY : Backtracking\51_N_Queens.cpp.s
 
+Binary_Search\1011_Capacity_to_Ship_Packages.obj: Binary_Search\1011_Capacity_to_Ship_Packages.cpp.obj
+.PHONY : Binary_Search\1011_Capacity_to_Ship_Packages.obj
+
+# target to build an object file
+Binary_Search\1011_Capacity_to_Ship_Packages.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1011.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\1011.dir\Binary_Search\1011_Capacity_to_Ship_Packages.cpp.obj
+.PHONY : Binary_Search\1011_Capacity_to_Ship_Packages.cpp.obj
+
+Binary_Search\1011_Capacity_to_Ship_Packages.i: Binary_Search\1011_Capacity_to_Ship_Packages.cpp.i
+.PHONY : Binary_Search\1011_Capacity_to_Ship_Packages.i
+
+# target to preprocess a source file
+Binary_Search\1011_Capacity_to_Ship_Packages.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1011.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\1011.dir\Binary_Search\1011_Capacity_to_Ship_Packages.cpp.i
+.PHONY : Binary_Search\1011_Capacity_to_Ship_Packages.cpp.i
+
+Binary_Search\1011_Capacity_to_Ship_Packages.s: Binary_Search\1011_Capacity_to_Ship_Packages.cpp.s
+.PHONY : Binary_Search\1011_Capacity_to_Ship_Packages.s
+
+# target to generate assembly for a file
+Binary_Search\1011_Capacity_to_Ship_Packages.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1011.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\1011.dir\Binary_Search\1011_Capacity_to_Ship_Packages.cpp.s
+.PHONY : Binary_Search\1011_Capacity_to_Ship_Packages.cpp.s
+
 Binary_Search\35_search_insertion_pos.obj: Binary_Search\35_search_insertion_pos.cpp.obj
 .PHONY : Binary_Search\35_search_insertion_pos.obj
 
@@ -1264,6 +1457,30 @@ Binary_Search\704_binary_search.s: Binary_Search\704_binary_search.cpp.s
 Binary_Search\704_binary_search.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Leetcode_704.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Leetcode_704.dir\Binary_Search\704_binary_search.cpp.s
 .PHONY : Binary_Search\704_binary_search.cpp.s
+
+Binary_Search\875_Koko_Eating_Bananas.obj: Binary_Search\875_Koko_Eating_Bananas.cpp.obj
+.PHONY : Binary_Search\875_Koko_Eating_Bananas.obj
+
+# target to build an object file
+Binary_Search\875_Koko_Eating_Bananas.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\875.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\875.dir\Binary_Search\875_Koko_Eating_Bananas.cpp.obj
+.PHONY : Binary_Search\875_Koko_Eating_Bananas.cpp.obj
+
+Binary_Search\875_Koko_Eating_Bananas.i: Binary_Search\875_Koko_Eating_Bananas.cpp.i
+.PHONY : Binary_Search\875_Koko_Eating_Bananas.i
+
+# target to preprocess a source file
+Binary_Search\875_Koko_Eating_Bananas.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\875.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\875.dir\Binary_Search\875_Koko_Eating_Bananas.cpp.i
+.PHONY : Binary_Search\875_Koko_Eating_Bananas.cpp.i
+
+Binary_Search\875_Koko_Eating_Bananas.s: Binary_Search\875_Koko_Eating_Bananas.cpp.s
+.PHONY : Binary_Search\875_Koko_Eating_Bananas.s
+
+# target to generate assembly for a file
+Binary_Search\875_Koko_Eating_Bananas.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\875.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\875.dir\Binary_Search\875_Koko_Eating_Bananas.cpp.s
+.PHONY : Binary_Search\875_Koko_Eating_Bananas.cpp.s
 
 Binary_Tree\104_Maximum_Depth_BT.obj: Binary_Tree\104_Maximum_Depth_BT.cpp.obj
 .PHONY : Binary_Tree\104_Maximum_Depth_BT.obj
@@ -1721,6 +1938,30 @@ DataStructure\460_LFU.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Leetcode_460.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Leetcode_460.dir\DataStructure\460_LFU.cpp.s
 .PHONY : DataStructure\460_LFU.cpp.s
 
+DataStructure\83_Remove_Duplicate_from_Sorted_List.obj: DataStructure\83_Remove_Duplicate_from_Sorted_List.cpp.obj
+.PHONY : DataStructure\83_Remove_Duplicate_from_Sorted_List.obj
+
+# target to build an object file
+DataStructure\83_Remove_Duplicate_from_Sorted_List.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\83.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\83.dir\DataStructure\83_Remove_Duplicate_from_Sorted_List.cpp.obj
+.PHONY : DataStructure\83_Remove_Duplicate_from_Sorted_List.cpp.obj
+
+DataStructure\83_Remove_Duplicate_from_Sorted_List.i: DataStructure\83_Remove_Duplicate_from_Sorted_List.cpp.i
+.PHONY : DataStructure\83_Remove_Duplicate_from_Sorted_List.i
+
+# target to preprocess a source file
+DataStructure\83_Remove_Duplicate_from_Sorted_List.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\83.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\83.dir\DataStructure\83_Remove_Duplicate_from_Sorted_List.cpp.i
+.PHONY : DataStructure\83_Remove_Duplicate_from_Sorted_List.cpp.i
+
+DataStructure\83_Remove_Duplicate_from_Sorted_List.s: DataStructure\83_Remove_Duplicate_from_Sorted_List.cpp.s
+.PHONY : DataStructure\83_Remove_Duplicate_from_Sorted_List.s
+
+# target to generate assembly for a file
+DataStructure\83_Remove_Duplicate_from_Sorted_List.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\83.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\83.dir\DataStructure\83_Remove_Duplicate_from_Sorted_List.cpp.s
+.PHONY : DataStructure\83_Remove_Duplicate_from_Sorted_List.cpp.s
+
 DataStructure\921_min_add_valid_parens.obj: DataStructure\921_min_add_valid_parens.cpp.obj
 .PHONY : DataStructure\921_min_add_valid_parens.obj
 
@@ -1840,6 +2081,78 @@ Double_Pointer\1_Two_Sum.s: Double_Pointer\1_Two_Sum.cpp.s
 Double_Pointer\1_Two_Sum.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\1.dir\Double_Pointer\1_Two_Sum.cpp.s
 .PHONY : Double_Pointer\1_Two_Sum.cpp.s
+
+Double_Pointer\26_Remove_Duplicates_Sorted_Arr.obj: Double_Pointer\26_Remove_Duplicates_Sorted_Arr.cpp.obj
+.PHONY : Double_Pointer\26_Remove_Duplicates_Sorted_Arr.obj
+
+# target to build an object file
+Double_Pointer\26_Remove_Duplicates_Sorted_Arr.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\26.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\26.dir\Double_Pointer\26_Remove_Duplicates_Sorted_Arr.cpp.obj
+.PHONY : Double_Pointer\26_Remove_Duplicates_Sorted_Arr.cpp.obj
+
+Double_Pointer\26_Remove_Duplicates_Sorted_Arr.i: Double_Pointer\26_Remove_Duplicates_Sorted_Arr.cpp.i
+.PHONY : Double_Pointer\26_Remove_Duplicates_Sorted_Arr.i
+
+# target to preprocess a source file
+Double_Pointer\26_Remove_Duplicates_Sorted_Arr.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\26.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\26.dir\Double_Pointer\26_Remove_Duplicates_Sorted_Arr.cpp.i
+.PHONY : Double_Pointer\26_Remove_Duplicates_Sorted_Arr.cpp.i
+
+Double_Pointer\26_Remove_Duplicates_Sorted_Arr.s: Double_Pointer\26_Remove_Duplicates_Sorted_Arr.cpp.s
+.PHONY : Double_Pointer\26_Remove_Duplicates_Sorted_Arr.s
+
+# target to generate assembly for a file
+Double_Pointer\26_Remove_Duplicates_Sorted_Arr.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\26.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\26.dir\Double_Pointer\26_Remove_Duplicates_Sorted_Arr.cpp.s
+.PHONY : Double_Pointer\26_Remove_Duplicates_Sorted_Arr.cpp.s
+
+Double_Pointer\27_Remove_Element.obj: Double_Pointer\27_Remove_Element.cpp.obj
+.PHONY : Double_Pointer\27_Remove_Element.obj
+
+# target to build an object file
+Double_Pointer\27_Remove_Element.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\27.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\27.dir\Double_Pointer\27_Remove_Element.cpp.obj
+.PHONY : Double_Pointer\27_Remove_Element.cpp.obj
+
+Double_Pointer\27_Remove_Element.i: Double_Pointer\27_Remove_Element.cpp.i
+.PHONY : Double_Pointer\27_Remove_Element.i
+
+# target to preprocess a source file
+Double_Pointer\27_Remove_Element.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\27.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\27.dir\Double_Pointer\27_Remove_Element.cpp.i
+.PHONY : Double_Pointer\27_Remove_Element.cpp.i
+
+Double_Pointer\27_Remove_Element.s: Double_Pointer\27_Remove_Element.cpp.s
+.PHONY : Double_Pointer\27_Remove_Element.s
+
+# target to generate assembly for a file
+Double_Pointer\27_Remove_Element.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\27.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\27.dir\Double_Pointer\27_Remove_Element.cpp.s
+.PHONY : Double_Pointer\27_Remove_Element.cpp.s
+
+Double_Pointer\283_Move_Zeroes.obj: Double_Pointer\283_Move_Zeroes.cpp.obj
+.PHONY : Double_Pointer\283_Move_Zeroes.obj
+
+# target to build an object file
+Double_Pointer\283_Move_Zeroes.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\283.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\283.dir\Double_Pointer\283_Move_Zeroes.cpp.obj
+.PHONY : Double_Pointer\283_Move_Zeroes.cpp.obj
+
+Double_Pointer\283_Move_Zeroes.i: Double_Pointer\283_Move_Zeroes.cpp.i
+.PHONY : Double_Pointer\283_Move_Zeroes.i
+
+# target to preprocess a source file
+Double_Pointer\283_Move_Zeroes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\283.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\283.dir\Double_Pointer\283_Move_Zeroes.cpp.i
+.PHONY : Double_Pointer\283_Move_Zeroes.cpp.i
+
+Double_Pointer\283_Move_Zeroes.s: Double_Pointer\283_Move_Zeroes.cpp.s
+.PHONY : Double_Pointer\283_Move_Zeroes.s
+
+# target to generate assembly for a file
+Double_Pointer\283_Move_Zeroes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\283.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\283.dir\Double_Pointer\283_Move_Zeroes.cpp.s
+.PHONY : Double_Pointer\283_Move_Zeroes.cpp.s
 
 Double_Pointer\34_find_first_and_last.obj: Double_Pointer\34_find_first_and_last.cpp.obj
 .PHONY : Double_Pointer\34_find_first_and_last.obj
@@ -2705,6 +3018,78 @@ Dynamic_Programming\931_Min_Falling_Path_Sum.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Min_Falling_Path_Sum.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Min_Falling_Path_Sum.dir\Dynamic_Programming\931_Min_Falling_Path_Sum.cpp.s
 .PHONY : Dynamic_Programming\931_Min_Falling_Path_Sum.cpp.s
 
+Freelent\Draft.obj: Freelent\Draft.cpp.obj
+.PHONY : Freelent\Draft.obj
+
+# target to build an object file
+Freelent\Draft.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Freelent_D.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Freelent_D.dir\Freelent\Draft.cpp.obj
+.PHONY : Freelent\Draft.cpp.obj
+
+Freelent\Draft.i: Freelent\Draft.cpp.i
+.PHONY : Freelent\Draft.i
+
+# target to preprocess a source file
+Freelent\Draft.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Freelent_D.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Freelent_D.dir\Freelent\Draft.cpp.i
+.PHONY : Freelent\Draft.cpp.i
+
+Freelent\Draft.s: Freelent\Draft.cpp.s
+.PHONY : Freelent\Draft.s
+
+# target to generate assembly for a file
+Freelent\Draft.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Freelent_D.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Freelent_D.dir\Freelent\Draft.cpp.s
+.PHONY : Freelent\Draft.cpp.s
+
+Freelent\Question1.obj: Freelent\Question1.cpp.obj
+.PHONY : Freelent\Question1.obj
+
+# target to build an object file
+Freelent\Question1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Freelent_Q1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Freelent_Q1.dir\Freelent\Question1.cpp.obj
+.PHONY : Freelent\Question1.cpp.obj
+
+Freelent\Question1.i: Freelent\Question1.cpp.i
+.PHONY : Freelent\Question1.i
+
+# target to preprocess a source file
+Freelent\Question1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Freelent_Q1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Freelent_Q1.dir\Freelent\Question1.cpp.i
+.PHONY : Freelent\Question1.cpp.i
+
+Freelent\Question1.s: Freelent\Question1.cpp.s
+.PHONY : Freelent\Question1.s
+
+# target to generate assembly for a file
+Freelent\Question1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Freelent_Q1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Freelent_Q1.dir\Freelent\Question1.cpp.s
+.PHONY : Freelent\Question1.cpp.s
+
+Freelent\Question2.obj: Freelent\Question2.cpp.obj
+.PHONY : Freelent\Question2.obj
+
+# target to build an object file
+Freelent\Question2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Freelent_Q2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Freelent_Q2.dir\Freelent\Question2.cpp.obj
+.PHONY : Freelent\Question2.cpp.obj
+
+Freelent\Question2.i: Freelent\Question2.cpp.i
+.PHONY : Freelent\Question2.i
+
+# target to preprocess a source file
+Freelent\Question2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Freelent_Q2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Freelent_Q2.dir\Freelent\Question2.cpp.i
+.PHONY : Freelent\Question2.cpp.i
+
+Freelent\Question2.s: Freelent\Question2.cpp.s
+.PHONY : Freelent\Question2.s
+
+# target to generate assembly for a file
+Freelent\Question2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Freelent_Q2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Freelent_Q2.dir\Freelent\Question2.cpp.s
+.PHONY : Freelent\Question2.cpp.s
+
 Graph\207_Course_Schedule.obj: Graph\207_Course_Schedule.cpp.obj
 .PHONY : Graph\207_Course_Schedule.obj
 
@@ -2752,6 +3137,30 @@ Graph\210_Course_Schedule_II.s: Graph\210_Course_Schedule_II.cpp.s
 Graph\210_Course_Schedule_II.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\210.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\210.dir\Graph\210_Course_Schedule_II.cpp.s
 .PHONY : Graph\210_Course_Schedule_II.cpp.s
+
+Graph\310_Minimum_Height_Tree.obj: Graph\310_Minimum_Height_Tree.cpp.obj
+.PHONY : Graph\310_Minimum_Height_Tree.obj
+
+# target to build an object file
+Graph\310_Minimum_Height_Tree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\310.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\310.dir\Graph\310_Minimum_Height_Tree.cpp.obj
+.PHONY : Graph\310_Minimum_Height_Tree.cpp.obj
+
+Graph\310_Minimum_Height_Tree.i: Graph\310_Minimum_Height_Tree.cpp.i
+.PHONY : Graph\310_Minimum_Height_Tree.i
+
+# target to preprocess a source file
+Graph\310_Minimum_Height_Tree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\310.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\310.dir\Graph\310_Minimum_Height_Tree.cpp.i
+.PHONY : Graph\310_Minimum_Height_Tree.cpp.i
+
+Graph\310_Minimum_Height_Tree.s: Graph\310_Minimum_Height_Tree.cpp.s
+.PHONY : Graph\310_Minimum_Height_Tree.s
+
+# target to generate assembly for a file
+Graph\310_Minimum_Height_Tree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\310.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\310.dir\Graph\310_Minimum_Height_Tree.cpp.s
+.PHONY : Graph\310_Minimum_Height_Tree.cpp.s
 
 Graph\785_Is_Bipartite.obj: Graph\785_Is_Bipartite.cpp.obj
 .PHONY : Graph\785_Is_Bipartite.obj
@@ -2824,6 +3233,30 @@ Graph\886_Possible_Bipartition.s: Graph\886_Possible_Bipartition.cpp.s
 Graph\886_Possible_Bipartition.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Possible_Bipartition.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Possible_Bipartition.dir\Graph\886_Possible_Bipartition.cpp.s
 .PHONY : Graph\886_Possible_Bipartition.cpp.s
+
+Graph\990_Satisfiability_of_Equality_Equation.obj: Graph\990_Satisfiability_of_Equality_Equation.cpp.obj
+.PHONY : Graph\990_Satisfiability_of_Equality_Equation.obj
+
+# target to build an object file
+Graph\990_Satisfiability_of_Equality_Equation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\990.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\990.dir\Graph\990_Satisfiability_of_Equality_Equation.cpp.obj
+.PHONY : Graph\990_Satisfiability_of_Equality_Equation.cpp.obj
+
+Graph\990_Satisfiability_of_Equality_Equation.i: Graph\990_Satisfiability_of_Equality_Equation.cpp.i
+.PHONY : Graph\990_Satisfiability_of_Equality_Equation.i
+
+# target to preprocess a source file
+Graph\990_Satisfiability_of_Equality_Equation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\990.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\990.dir\Graph\990_Satisfiability_of_Equality_Equation.cpp.i
+.PHONY : Graph\990_Satisfiability_of_Equality_Equation.cpp.i
+
+Graph\990_Satisfiability_of_Equality_Equation.s: Graph\990_Satisfiability_of_Equality_Equation.cpp.s
+.PHONY : Graph\990_Satisfiability_of_Equality_Equation.s
+
+# target to generate assembly for a file
+Graph\990_Satisfiability_of_Equality_Equation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\990.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\990.dir\Graph\990_Satisfiability_of_Equality_Equation.cpp.s
+.PHONY : Graph\990_Satisfiability_of_Equality_Equation.cpp.s
 
 Graph\Union_Find.obj: Graph\Union_Find.cpp.obj
 .PHONY : Graph\Union_Find.obj
@@ -2921,6 +3354,30 @@ Huawei\Q3_note.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Q3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Q3.dir\Huawei\Q3_note.cpp.s
 .PHONY : Huawei\Q3_note.cpp.s
 
+Math\172_Factorial_Trailing_Zeroes.obj: Math\172_Factorial_Trailing_Zeroes.cpp.obj
+.PHONY : Math\172_Factorial_Trailing_Zeroes.obj
+
+# target to build an object file
+Math\172_Factorial_Trailing_Zeroes.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\172.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\172.dir\Math\172_Factorial_Trailing_Zeroes.cpp.obj
+.PHONY : Math\172_Factorial_Trailing_Zeroes.cpp.obj
+
+Math\172_Factorial_Trailing_Zeroes.i: Math\172_Factorial_Trailing_Zeroes.cpp.i
+.PHONY : Math\172_Factorial_Trailing_Zeroes.i
+
+# target to preprocess a source file
+Math\172_Factorial_Trailing_Zeroes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\172.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\172.dir\Math\172_Factorial_Trailing_Zeroes.cpp.i
+.PHONY : Math\172_Factorial_Trailing_Zeroes.cpp.i
+
+Math\172_Factorial_Trailing_Zeroes.s: Math\172_Factorial_Trailing_Zeroes.cpp.s
+.PHONY : Math\172_Factorial_Trailing_Zeroes.s
+
+# target to generate assembly for a file
+Math\172_Factorial_Trailing_Zeroes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\172.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\172.dir\Math\172_Factorial_Trailing_Zeroes.cpp.s
+.PHONY : Math\172_Factorial_Trailing_Zeroes.cpp.s
+
 Search\1254_Num_Closed_Islands.obj: Search\1254_Num_Closed_Islands.cpp.obj
 .PHONY : Search\1254_Num_Closed_Islands.obj
 
@@ -2992,6 +3449,30 @@ Search\200_num_of_islands.s: Search\200_num_of_islands.cpp.s
 Search\200_num_of_islands.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Leetcode_200.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Leetcode_200.dir\Search\200_num_of_islands.cpp.s
 .PHONY : Search\200_num_of_islands.cpp.s
+
+Search\301_Remove_Invalid_Parentheses.obj: Search\301_Remove_Invalid_Parentheses.cpp.obj
+.PHONY : Search\301_Remove_Invalid_Parentheses.obj
+
+# target to build an object file
+Search\301_Remove_Invalid_Parentheses.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\301.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\301.dir\Search\301_Remove_Invalid_Parentheses.cpp.obj
+.PHONY : Search\301_Remove_Invalid_Parentheses.cpp.obj
+
+Search\301_Remove_Invalid_Parentheses.i: Search\301_Remove_Invalid_Parentheses.cpp.i
+.PHONY : Search\301_Remove_Invalid_Parentheses.i
+
+# target to preprocess a source file
+Search\301_Remove_Invalid_Parentheses.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\301.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\301.dir\Search\301_Remove_Invalid_Parentheses.cpp.i
+.PHONY : Search\301_Remove_Invalid_Parentheses.cpp.i
+
+Search\301_Remove_Invalid_Parentheses.s: Search\301_Remove_Invalid_Parentheses.cpp.s
+.PHONY : Search\301_Remove_Invalid_Parentheses.s
+
+# target to generate assembly for a file
+Search\301_Remove_Invalid_Parentheses.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\301.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\301.dir\Search\301_Remove_Invalid_Parentheses.cpp.s
+.PHONY : Search\301_Remove_Invalid_Parentheses.cpp.s
 
 Search\752_Open_the_Lock.obj: Search\752_Open_the_Lock.cpp.obj
 .PHONY : Search\752_Open_the_Lock.obj
@@ -3074,6 +3555,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... 1
+	@echo ... 1011
 	@echo ... 121
 	@echo ... 122
 	@echo ... 123
@@ -3081,6 +3563,7 @@ help:
 	@echo ... 142
 	@echo ... 15
 	@echo ... 160
+	@echo ... 172
 	@echo ... 174
 	@echo ... 188
 	@echo ... 207
@@ -3092,9 +3575,14 @@ help:
 	@echo ... 234
 	@echo ... 241
 	@echo ... 25
+	@echo ... 26
+	@echo ... 27
+	@echo ... 283
 	@echo ... 297
 	@echo ... 3
+	@echo ... 301
 	@echo ... 309
+	@echo ... 310
 	@echo ... 312
 	@echo ... 416
 	@echo ... 438
@@ -3103,12 +3591,18 @@ help:
 	@echo ... 567
 	@echo ... 714
 	@echo ... 76
+	@echo ... 83
+	@echo ... 875
 	@echo ... 897
+	@echo ... 990
 	@echo ... All_Paths_Src_Tgt
 	@echo ... Control_Hijack
 	@echo ... Conversion
 	@echo ... Duplicate_Subtree
 	@echo ... FSA
+	@echo ... Freelent_D
+	@echo ... Freelent_Q1
+	@echo ... Freelent_Q2
 	@echo ... HJ29
 	@echo ... HJ_MSD
 	@echo ... Hexadecimal_Test
@@ -3162,12 +3656,18 @@ help:
 	@echo ... Backtracking/51_N_Queens.obj
 	@echo ... Backtracking/51_N_Queens.i
 	@echo ... Backtracking/51_N_Queens.s
+	@echo ... Binary_Search/1011_Capacity_to_Ship_Packages.obj
+	@echo ... Binary_Search/1011_Capacity_to_Ship_Packages.i
+	@echo ... Binary_Search/1011_Capacity_to_Ship_Packages.s
 	@echo ... Binary_Search/35_search_insertion_pos.obj
 	@echo ... Binary_Search/35_search_insertion_pos.i
 	@echo ... Binary_Search/35_search_insertion_pos.s
 	@echo ... Binary_Search/704_binary_search.obj
 	@echo ... Binary_Search/704_binary_search.i
 	@echo ... Binary_Search/704_binary_search.s
+	@echo ... Binary_Search/875_Koko_Eating_Bananas.obj
+	@echo ... Binary_Search/875_Koko_Eating_Bananas.i
+	@echo ... Binary_Search/875_Koko_Eating_Bananas.s
 	@echo ... Binary_Tree/104_Maximum_Depth_BT.obj
 	@echo ... Binary_Tree/104_Maximum_Depth_BT.i
 	@echo ... Binary_Tree/104_Maximum_Depth_BT.s
@@ -3225,6 +3725,9 @@ help:
 	@echo ... DataStructure/460_LFU.obj
 	@echo ... DataStructure/460_LFU.i
 	@echo ... DataStructure/460_LFU.s
+	@echo ... DataStructure/83_Remove_Duplicate_from_Sorted_List.obj
+	@echo ... DataStructure/83_Remove_Duplicate_from_Sorted_List.i
+	@echo ... DataStructure/83_Remove_Duplicate_from_Sorted_List.s
 	@echo ... DataStructure/921_min_add_valid_parens.obj
 	@echo ... DataStructure/921_min_add_valid_parens.i
 	@echo ... DataStructure/921_min_add_valid_parens.s
@@ -3240,6 +3743,15 @@ help:
 	@echo ... Double_Pointer/1_Two_Sum.obj
 	@echo ... Double_Pointer/1_Two_Sum.i
 	@echo ... Double_Pointer/1_Two_Sum.s
+	@echo ... Double_Pointer/26_Remove_Duplicates_Sorted_Arr.obj
+	@echo ... Double_Pointer/26_Remove_Duplicates_Sorted_Arr.i
+	@echo ... Double_Pointer/26_Remove_Duplicates_Sorted_Arr.s
+	@echo ... Double_Pointer/27_Remove_Element.obj
+	@echo ... Double_Pointer/27_Remove_Element.i
+	@echo ... Double_Pointer/27_Remove_Element.s
+	@echo ... Double_Pointer/283_Move_Zeroes.obj
+	@echo ... Double_Pointer/283_Move_Zeroes.i
+	@echo ... Double_Pointer/283_Move_Zeroes.s
 	@echo ... Double_Pointer/34_find_first_and_last.obj
 	@echo ... Double_Pointer/34_find_first_and_last.i
 	@echo ... Double_Pointer/34_find_first_and_last.s
@@ -3348,12 +3860,24 @@ help:
 	@echo ... Dynamic_Programming/931_Min_Falling_Path_Sum.obj
 	@echo ... Dynamic_Programming/931_Min_Falling_Path_Sum.i
 	@echo ... Dynamic_Programming/931_Min_Falling_Path_Sum.s
+	@echo ... Freelent/Draft.obj
+	@echo ... Freelent/Draft.i
+	@echo ... Freelent/Draft.s
+	@echo ... Freelent/Question1.obj
+	@echo ... Freelent/Question1.i
+	@echo ... Freelent/Question1.s
+	@echo ... Freelent/Question2.obj
+	@echo ... Freelent/Question2.i
+	@echo ... Freelent/Question2.s
 	@echo ... Graph/207_Course_Schedule.obj
 	@echo ... Graph/207_Course_Schedule.i
 	@echo ... Graph/207_Course_Schedule.s
 	@echo ... Graph/210_Course_Schedule_II.obj
 	@echo ... Graph/210_Course_Schedule_II.i
 	@echo ... Graph/210_Course_Schedule_II.s
+	@echo ... Graph/310_Minimum_Height_Tree.obj
+	@echo ... Graph/310_Minimum_Height_Tree.i
+	@echo ... Graph/310_Minimum_Height_Tree.s
 	@echo ... Graph/785_Is_Bipartite.obj
 	@echo ... Graph/785_Is_Bipartite.i
 	@echo ... Graph/785_Is_Bipartite.s
@@ -3363,6 +3887,9 @@ help:
 	@echo ... Graph/886_Possible_Bipartition.obj
 	@echo ... Graph/886_Possible_Bipartition.i
 	@echo ... Graph/886_Possible_Bipartition.s
+	@echo ... Graph/990_Satisfiability_of_Equality_Equation.obj
+	@echo ... Graph/990_Satisfiability_of_Equality_Equation.i
+	@echo ... Graph/990_Satisfiability_of_Equality_Equation.s
 	@echo ... Graph/Union_Find.obj
 	@echo ... Graph/Union_Find.i
 	@echo ... Graph/Union_Find.s
@@ -3375,6 +3902,9 @@ help:
 	@echo ... Huawei/Q3_note.obj
 	@echo ... Huawei/Q3_note.i
 	@echo ... Huawei/Q3_note.s
+	@echo ... Math/172_Factorial_Trailing_Zeroes.obj
+	@echo ... Math/172_Factorial_Trailing_Zeroes.i
+	@echo ... Math/172_Factorial_Trailing_Zeroes.s
 	@echo ... Search/1254_Num_Closed_Islands.obj
 	@echo ... Search/1254_Num_Closed_Islands.i
 	@echo ... Search/1254_Num_Closed_Islands.s
@@ -3384,6 +3914,9 @@ help:
 	@echo ... Search/200_num_of_islands.obj
 	@echo ... Search/200_num_of_islands.i
 	@echo ... Search/200_num_of_islands.s
+	@echo ... Search/301_Remove_Invalid_Parentheses.obj
+	@echo ... Search/301_Remove_Invalid_Parentheses.i
+	@echo ... Search/301_Remove_Invalid_Parentheses.s
 	@echo ... Search/752_Open_the_Lock.obj
 	@echo ... Search/752_Open_the_Lock.i
 	@echo ... Search/752_Open_the_Lock.s

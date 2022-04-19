@@ -12,7 +12,7 @@ private:
 
 public:
     UF(int n){
-        this->counter = counter;
+        this->counter = 0;
         this->parent = *(new vector<int>(n));
         this->sizes = *(new vector<int>(n,1));
 
@@ -25,7 +25,7 @@ public:
             parent[p] = parent[parent[p]];
             p = parent[p];
         }
-        return p;
+        return p;r
     }
 
     void unionSets(int p, int q){
