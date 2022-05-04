@@ -97,6 +97,7 @@ all: CMakeFiles\Min_Falling_Path_Sum.dir\all
 all: CMakeFiles\House_Robber_II.dir\all
 all: CMakeFiles\142.dir\all
 all: CMakeFiles\House_Robber_III.dir\all
+all: CMakeFiles\1094.dir\all
 all: CMakeFiles\Num_Closed_Islands.dir\all
 all: CMakeFiles\297.dir\all
 all: CMakeFiles\All_Paths_Src_Tgt.dir\all
@@ -145,6 +146,11 @@ all: CMakeFiles\172.dir\all
 all: CMakeFiles\Freelent_Q1.dir\all
 all: CMakeFiles\Freelent_Q2.dir\all
 all: CMakeFiles\Freelent_D.dir\all
+all: CMakeFiles\empty_func.dir\all
+all: CMakeFiles\581.dir\all
+all: CMakeFiles\98.dir\all
+all: CMakeFiles\560.dir\all
+all: CMakeFiles\1109.dir\all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -197,6 +203,7 @@ clean: CMakeFiles\Min_Falling_Path_Sum.dir\clean
 clean: CMakeFiles\House_Robber_II.dir\clean
 clean: CMakeFiles\142.dir\clean
 clean: CMakeFiles\House_Robber_III.dir\clean
+clean: CMakeFiles\1094.dir\clean
 clean: CMakeFiles\Num_Closed_Islands.dir\clean
 clean: CMakeFiles\297.dir\clean
 clean: CMakeFiles\All_Paths_Src_Tgt.dir\clean
@@ -245,6 +252,11 @@ clean: CMakeFiles\172.dir\clean
 clean: CMakeFiles\Freelent_Q1.dir\clean
 clean: CMakeFiles\Freelent_Q2.dir\clean
 clean: CMakeFiles\Freelent_D.dir\clean
+clean: CMakeFiles\empty_func.dir\clean
+clean: CMakeFiles\581.dir\clean
+clean: CMakeFiles\98.dir\clean
+clean: CMakeFiles\560.dir\clean
+clean: CMakeFiles\1109.dir\clean
 .PHONY : clean
 
 #=============================================================================
@@ -254,7 +266,7 @@ clean: CMakeFiles\Freelent_D.dir\clean
 CMakeFiles\Leetcode_106.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Leetcode_106.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Leetcode_106.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Leetcode_106.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Leetcode_106.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=66 "Built target Leetcode_106"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=67 "Built target Leetcode_106"
 .PHONY : CMakeFiles\Leetcode_106.dir\all
 
 # Build rule for subdir invocation for target.
@@ -332,12 +344,12 @@ CMakeFiles\Leetcode_34.dir\clean:
 CMakeFiles\21.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\21.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\21.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\21.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\21.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=14,15 "Built target 21"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=16 "Built target 21"
 .PHONY : CMakeFiles\21.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\21.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\21.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\21.dir\rule
@@ -358,12 +370,12 @@ CMakeFiles\21.dir\clean:
 CMakeFiles\draft.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\draft.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\draft.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\draft.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\draft.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=99,100 "Built target draft"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=98 "Built target draft"
 .PHONY : CMakeFiles\draft.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\draft.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\draft.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\draft.dir\rule
@@ -384,7 +396,7 @@ CMakeFiles\draft.dir\clean:
 CMakeFiles\Unique_Path.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unique_Path.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Unique_Path.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unique_Path.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Unique_Path.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=98 "Built target Unique_Path"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=97 "Built target Unique_Path"
 .PHONY : CMakeFiles\Unique_Path.dir\all
 
 # Build rule for subdir invocation for target.
@@ -436,7 +448,7 @@ CMakeFiles\Leetcode_704.dir\clean:
 CMakeFiles\Jump_Game_II.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Jump_Game_II.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Jump_Game_II.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Jump_Game_II.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Jump_Game_II.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=63 "Built target Jump_Game_II"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=64 "Built target Jump_Game_II"
 .PHONY : CMakeFiles\Jump_Game_II.dir\all
 
 # Build rule for subdir invocation for target.
@@ -514,7 +526,7 @@ CMakeFiles\Leetcode_72.dir\clean:
 CMakeFiles\Sliding_Puzzle.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sliding_Puzzle.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Sliding_Puzzle.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sliding_Puzzle.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Sliding_Puzzle.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=94 "Built target Sliding_Puzzle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=93 "Built target Sliding_Puzzle"
 .PHONY : CMakeFiles\Sliding_Puzzle.dir\all
 
 # Build rule for subdir invocation for target.
@@ -540,7 +552,7 @@ CMakeFiles\Sliding_Puzzle.dir\clean:
 CMakeFiles\Leetcode_104.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Leetcode_104.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Leetcode_104.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Leetcode_104.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Leetcode_104.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=64 "Built target Leetcode_104"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=65 "Built target Leetcode_104"
 .PHONY : CMakeFiles\Leetcode_104.dir\all
 
 # Build rule for subdir invocation for target.
@@ -566,7 +578,7 @@ CMakeFiles\Leetcode_104.dir\clean:
 CMakeFiles\Leetcode_105.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Leetcode_105.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Leetcode_105.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Leetcode_105.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Leetcode_105.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=65 "Built target Leetcode_105"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=66 "Built target Leetcode_105"
 .PHONY : CMakeFiles\Leetcode_105.dir\all
 
 # Build rule for subdir invocation for target.
@@ -592,7 +604,7 @@ CMakeFiles\Leetcode_105.dir\clean:
 CMakeFiles\Leetcode_200.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Leetcode_200.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Leetcode_200.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Leetcode_200.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Leetcode_200.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=69 "Built target Leetcode_200"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=70 "Built target Leetcode_200"
 .PHONY : CMakeFiles\Leetcode_200.dir\all
 
 # Build rule for subdir invocation for target.
@@ -618,7 +630,7 @@ CMakeFiles\Leetcode_200.dir\clean:
 CMakeFiles\Surrounded_Regions.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Surrounded_Regions.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Surrounded_Regions.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Surrounded_Regions.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Surrounded_Regions.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=95 "Built target Surrounded_Regions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=94 "Built target Surrounded_Regions"
 .PHONY : CMakeFiles\Surrounded_Regions.dir\all
 
 # Build rule for subdir invocation for target.
@@ -644,7 +656,7 @@ CMakeFiles\Surrounded_Regions.dir\clean:
 CMakeFiles\Leetcode_146.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Leetcode_146.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Leetcode_146.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Leetcode_146.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Leetcode_146.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=67 "Built target Leetcode_146"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=68 "Built target Leetcode_146"
 .PHONY : CMakeFiles\Leetcode_146.dir\all
 
 # Build rule for subdir invocation for target.
@@ -670,7 +682,7 @@ CMakeFiles\Leetcode_146.dir\clean:
 CMakeFiles\Leetcode_300.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Leetcode_300.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Leetcode_300.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Leetcode_300.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Leetcode_300.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=70 "Built target Leetcode_300"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=71 "Built target Leetcode_300"
 .PHONY : CMakeFiles\Leetcode_300.dir\all
 
 # Build rule for subdir invocation for target.
@@ -696,12 +708,12 @@ CMakeFiles\Leetcode_300.dir\clean:
 CMakeFiles\897.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\897.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\897.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\897.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\897.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=42,43 "Built target 897"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=44 "Built target 897"
 .PHONY : CMakeFiles\897.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\897.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\897.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\897.dir\rule
@@ -722,7 +734,7 @@ CMakeFiles\897.dir\clean:
 CMakeFiles\Q1.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Q1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Q1.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Q1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Q1.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=90 "Built target Q1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=89 "Built target Q1"
 .PHONY : CMakeFiles\Q1.dir\all
 
 # Build rule for subdir invocation for target.
@@ -774,7 +786,7 @@ CMakeFiles\Leetcode_460.dir\clean:
 CMakeFiles\Interval_List_Intersection.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Interval_List_Intersection.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Interval_List_Intersection.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Interval_List_Intersection.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Interval_List_Intersection.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=60 "Built target Interval_List_Intersection"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=61 "Built target Interval_List_Intersection"
 .PHONY : CMakeFiles\Interval_List_Intersection.dir\all
 
 # Build rule for subdir invocation for target.
@@ -800,7 +812,7 @@ CMakeFiles\Interval_List_Intersection.dir\clean:
 CMakeFiles\Leetcode_20.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Leetcode_20.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Leetcode_20.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Leetcode_20.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Leetcode_20.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=68 "Built target Leetcode_20"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=69 "Built target Leetcode_20"
 .PHONY : CMakeFiles\Leetcode_20.dir\all
 
 # Build rule for subdir invocation for target.
@@ -878,7 +890,7 @@ CMakeFiles\Leetcode_70.dir\clean:
 CMakeFiles\Trapping_Rain.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Trapping_Rain.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Trapping_Rain.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Trapping_Rain.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Trapping_Rain.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=96 "Built target Trapping_Rain"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=95 "Built target Trapping_Rain"
 .PHONY : CMakeFiles\Trapping_Rain.dir\all
 
 # Build rule for subdir invocation for target.
@@ -904,7 +916,7 @@ CMakeFiles\Trapping_Rain.dir\clean:
 CMakeFiles\FSA.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSA.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FSA.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FSA.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FSA.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=49 "Built target FSA"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=51 "Built target FSA"
 .PHONY : CMakeFiles\FSA.dir\all
 
 # Build rule for subdir invocation for target.
@@ -930,7 +942,7 @@ CMakeFiles\FSA.dir\clean:
 CMakeFiles\207.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\207.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\207.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\207.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\207.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=13 "Built target 207"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=15 "Built target 207"
 .PHONY : CMakeFiles\207.dir\all
 
 # Build rule for subdir invocation for target.
@@ -956,12 +968,12 @@ CMakeFiles\207.dir\clean:
 CMakeFiles\Leetcode_322.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Leetcode_322.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Leetcode_322.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Leetcode_322.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Leetcode_322.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=71,72 "Built target Leetcode_322"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=72 "Built target Leetcode_322"
 .PHONY : CMakeFiles\Leetcode_322.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\Leetcode_322.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\Leetcode_322.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\Leetcode_322.dir\rule
@@ -1008,7 +1020,7 @@ CMakeFiles\Leetcode_53.dir\clean:
 CMakeFiles\Q3.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Q3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Q3.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Q3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Q3.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=92 "Built target Q3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=91 "Built target Q3"
 .PHONY : CMakeFiles\Q3.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1060,7 +1072,7 @@ CMakeFiles\Leetcode_354.dir\clean:
 CMakeFiles\Open_Lock.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Open_Lock.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Open_Lock.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Open_Lock.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Open_Lock.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=88 "Built target Open_Lock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=87 "Built target Open_Lock"
 .PHONY : CMakeFiles\Open_Lock.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1086,7 +1098,7 @@ CMakeFiles\Open_Lock.dir\clean:
 CMakeFiles\Hexadecimal_Test.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hexadecimal_Test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Hexadecimal_Test.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hexadecimal_Test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Hexadecimal_Test.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=55 "Built target Hexadecimal_Test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=57 "Built target Hexadecimal_Test"
 .PHONY : CMakeFiles\Hexadecimal_Test.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1112,7 +1124,7 @@ CMakeFiles\Hexadecimal_Test.dir\clean:
 CMakeFiles\Control_Hijack.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Control_Hijack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Control_Hijack.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Control_Hijack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Control_Hijack.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=46 "Built target Control_Hijack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=48 "Built target Control_Hijack"
 .PHONY : CMakeFiles\Control_Hijack.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1138,7 +1150,7 @@ CMakeFiles\Control_Hijack.dir\clean:
 CMakeFiles\15.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\15.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\15.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\15.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\15.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=8 "Built target 15"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=10 "Built target 15"
 .PHONY : CMakeFiles\15.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1164,12 +1176,12 @@ CMakeFiles\15.dir\clean:
 CMakeFiles\Min_Path_Sum.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Min_Path_Sum.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Min_Path_Sum.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Min_Path_Sum.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Min_Path_Sum.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=85,86 "Built target Min_Path_Sum"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=85 "Built target Min_Path_Sum"
 .PHONY : CMakeFiles\Min_Path_Sum.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\Min_Path_Sum.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\Min_Path_Sum.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\Min_Path_Sum.dir\rule
@@ -1190,7 +1202,7 @@ CMakeFiles\Min_Path_Sum.dir\clean:
 CMakeFiles\188.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\188.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\188.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\188.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\188.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=12 "Built target 188"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=14 "Built target 188"
 .PHONY : CMakeFiles\188.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1216,7 +1228,7 @@ CMakeFiles\188.dir\clean:
 CMakeFiles\Jump_Game.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Jump_Game.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Jump_Game.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Jump_Game.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Jump_Game.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=62 "Built target Jump_Game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=63 "Built target Jump_Game"
 .PHONY : CMakeFiles\Jump_Game.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1242,7 +1254,7 @@ CMakeFiles\Jump_Game.dir\clean:
 CMakeFiles\House_Robber.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\House_Robber.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\House_Robber.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\House_Robber.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\House_Robber.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=56 "Built target House_Robber"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=58 "Built target House_Robber"
 .PHONY : CMakeFiles\House_Robber.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1268,7 +1280,7 @@ CMakeFiles\House_Robber.dir\clean:
 CMakeFiles\Remove_Covered_Interval.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Remove_Covered_Interval.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Remove_Covered_Interval.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Remove_Covered_Interval.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Remove_Covered_Interval.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=93 "Built target Remove_Covered_Interval"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=92 "Built target Remove_Covered_Interval"
 .PHONY : CMakeFiles\Remove_Covered_Interval.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1294,7 +1306,7 @@ CMakeFiles\Remove_Covered_Interval.dir\clean:
 CMakeFiles\Duplicate_Subtree.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Duplicate_Subtree.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Duplicate_Subtree.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Duplicate_Subtree.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Duplicate_Subtree.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=48 "Built target Duplicate_Subtree"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=50 "Built target Duplicate_Subtree"
 .PHONY : CMakeFiles\Duplicate_Subtree.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1346,12 +1358,12 @@ CMakeFiles\Min_Falling_Path_Sum.dir\clean:
 CMakeFiles\House_Robber_II.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\House_Robber_II.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\House_Robber_II.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\House_Robber_II.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\House_Robber_II.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=57,58 "Built target House_Robber_II"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=59 "Built target House_Robber_II"
 .PHONY : CMakeFiles\House_Robber_II.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\House_Robber_II.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\House_Robber_II.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\House_Robber_II.dir\rule
@@ -1372,7 +1384,7 @@ CMakeFiles\House_Robber_II.dir\clean:
 CMakeFiles\142.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\142.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\142.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\142.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\142.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=7 "Built target 142"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=9 "Built target 142"
 .PHONY : CMakeFiles\142.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1398,7 +1410,7 @@ CMakeFiles\142.dir\clean:
 CMakeFiles\House_Robber_III.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\House_Robber_III.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\House_Robber_III.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\House_Robber_III.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\House_Robber_III.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=59 "Built target House_Robber_III"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=60 "Built target House_Robber_III"
 .PHONY : CMakeFiles\House_Robber_III.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1418,13 +1430,39 @@ CMakeFiles\House_Robber_III.dir\clean:
 .PHONY : CMakeFiles\House_Robber_III.dir\clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/1094.dir
+
+# All Build rule for target.
+CMakeFiles\1094.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1094.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\1094.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1094.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\1094.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=3 "Built target 1094"
+.PHONY : CMakeFiles\1094.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\1094.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\1094.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\1094.dir\rule
+
+# Convenience name for target.
+1094: CMakeFiles\1094.dir\rule
+.PHONY : 1094
+
+# clean rule for target.
+CMakeFiles\1094.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1094.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\1094.dir\clean
+.PHONY : CMakeFiles\1094.dir\clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Num_Closed_Islands.dir
 
 # All Build rule for target.
 CMakeFiles\Num_Closed_Islands.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num_Closed_Islands.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num_Closed_Islands.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num_Closed_Islands.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num_Closed_Islands.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=87 "Built target Num_Closed_Islands"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=86 "Built target Num_Closed_Islands"
 .PHONY : CMakeFiles\Num_Closed_Islands.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1450,7 +1488,7 @@ CMakeFiles\Num_Closed_Islands.dir\clean:
 CMakeFiles\297.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\297.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\297.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\297.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\297.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=26 "Built target 297"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=27 "Built target 297"
 .PHONY : CMakeFiles\297.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1476,7 +1514,7 @@ CMakeFiles\297.dir\clean:
 CMakeFiles\All_Paths_Src_Tgt.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\All_Paths_Src_Tgt.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\All_Paths_Src_Tgt.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\All_Paths_Src_Tgt.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\All_Paths_Src_Tgt.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=45 "Built target All_Paths_Src_Tgt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=47 "Built target All_Paths_Src_Tgt"
 .PHONY : CMakeFiles\All_Paths_Src_Tgt.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1502,7 +1540,7 @@ CMakeFiles\All_Paths_Src_Tgt.dir\clean:
 CMakeFiles\Is_Bipartite.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Is_Bipartite.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Is_Bipartite.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Is_Bipartite.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Is_Bipartite.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=61 "Built target Is_Bipartite"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=62 "Built target Is_Bipartite"
 .PHONY : CMakeFiles\Is_Bipartite.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1528,7 +1566,7 @@ CMakeFiles\Is_Bipartite.dir\clean:
 CMakeFiles\Possible_Bipartition.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Possible_Bipartition.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Possible_Bipartition.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Possible_Bipartition.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Possible_Bipartition.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=89 "Built target Possible_Bipartition"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=88 "Built target Possible_Bipartition"
 .PHONY : CMakeFiles\Possible_Bipartition.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1580,7 +1618,7 @@ CMakeFiles\Merge_Intervals.dir\clean:
 CMakeFiles\22.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\22.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\22.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\22.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\22.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=17 "Built target 22"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=18 "Built target 22"
 .PHONY : CMakeFiles\22.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1606,7 +1644,7 @@ CMakeFiles\22.dir\clean:
 CMakeFiles\Conversion.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Conversion.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Conversion.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Conversion.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Conversion.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=47 "Built target Conversion"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=49 "Built target Conversion"
 .PHONY : CMakeFiles\Conversion.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1632,7 +1670,7 @@ CMakeFiles\Conversion.dir\clean:
 CMakeFiles\3.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\3.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\3.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=27 "Built target 3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=28 "Built target 3"
 .PHONY : CMakeFiles\3.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1658,7 +1696,7 @@ CMakeFiles\3.dir\clean:
 CMakeFiles\UF.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UF.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\UF.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UF.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\UF.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=97 "Built target UF"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=96 "Built target UF"
 .PHONY : CMakeFiles\UF.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1684,7 +1722,7 @@ CMakeFiles\UF.dir\clean:
 CMakeFiles\HJ29.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HJ29.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\HJ29.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HJ29.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\HJ29.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=53 "Built target HJ29"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=55 "Built target HJ29"
 .PHONY : CMakeFiles\HJ29.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1736,7 +1774,7 @@ CMakeFiles\416.dir\clean:
 CMakeFiles\25.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\25.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\25.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\25.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\25.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=22 "Built target 25"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=23 "Built target 25"
 .PHONY : CMakeFiles\25.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1762,7 +1800,7 @@ CMakeFiles\25.dir\clean:
 CMakeFiles\HJ_MSD.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HJ_MSD.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\HJ_MSD.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HJ_MSD.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\HJ_MSD.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=54 "Built target HJ_MSD"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=56 "Built target HJ_MSD"
 .PHONY : CMakeFiles\HJ_MSD.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1788,7 +1826,7 @@ CMakeFiles\HJ_MSD.dir\clean:
 CMakeFiles\210.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\210.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\210.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\210.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\210.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=16 "Built target 210"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=17 "Built target 210"
 .PHONY : CMakeFiles\210.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1840,7 +1878,7 @@ CMakeFiles\1.dir\clean:
 CMakeFiles\Q2.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Q2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Q2.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Q2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Q2.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=91 "Built target Q2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=90 "Built target Q2"
 .PHONY : CMakeFiles\Q2.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1866,7 +1904,7 @@ CMakeFiles\Q2.dir\clean:
 CMakeFiles\23.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\23.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\23.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\23.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\23.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=18 "Built target 23"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=19 "Built target 23"
 .PHONY : CMakeFiles\23.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1892,7 +1930,7 @@ CMakeFiles\23.dir\clean:
 CMakeFiles\234.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\234.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\234.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\234.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\234.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=20 "Built target 234"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=21 "Built target 234"
 .PHONY : CMakeFiles\234.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1918,7 +1956,7 @@ CMakeFiles\234.dir\clean:
 CMakeFiles\141.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\141.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\141.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\141.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\141.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=6 "Built target 141"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=8 "Built target 141"
 .PHONY : CMakeFiles\141.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1944,7 +1982,7 @@ CMakeFiles\141.dir\clean:
 CMakeFiles\160.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\160.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\160.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\160.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\160.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=9 "Built target 160"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=11 "Built target 160"
 .PHONY : CMakeFiles\160.dir\all
 
 # Build rule for subdir invocation for target.
@@ -2022,7 +2060,7 @@ CMakeFiles\51.dir\clean:
 CMakeFiles\121.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\121.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\121.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\121.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\121.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=3 "Built target 121"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=5 "Built target 121"
 .PHONY : CMakeFiles\121.dir\all
 
 # Build rule for subdir invocation for target.
@@ -2048,7 +2086,7 @@ CMakeFiles\121.dir\clean:
 CMakeFiles\122.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\122.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\122.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\122.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\122.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=4 "Built target 122"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=6 "Built target 122"
 .PHONY : CMakeFiles\122.dir\all
 
 # Build rule for subdir invocation for target.
@@ -2074,7 +2112,7 @@ CMakeFiles\122.dir\clean:
 CMakeFiles\123.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\123.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\123.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\123.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\123.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=5 "Built target 123"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=7 "Built target 123"
 .PHONY : CMakeFiles\123.dir\all
 
 # Build rule for subdir invocation for target.
@@ -2126,7 +2164,7 @@ CMakeFiles\309.dir\clean:
 CMakeFiles\714.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\714.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\714.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\714.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\714.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=38 "Built target 714"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=40 "Built target 714"
 .PHONY : CMakeFiles\714.dir\all
 
 # Build rule for subdir invocation for target.
@@ -2152,7 +2190,7 @@ CMakeFiles\714.dir\clean:
 CMakeFiles\174.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\174.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\174.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\174.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\174.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=11 "Built target 174"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=13 "Built target 174"
 .PHONY : CMakeFiles\174.dir\all
 
 # Build rule for subdir invocation for target.
@@ -2204,7 +2242,7 @@ CMakeFiles\312.dir\clean:
 CMakeFiles\230.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\230.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\230.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\230.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\230.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=19 "Built target 230"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=20 "Built target 230"
 .PHONY : CMakeFiles\230.dir\all
 
 # Build rule for subdir invocation for target.
@@ -2230,7 +2268,7 @@ CMakeFiles\230.dir\clean:
 CMakeFiles\76.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\76.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\76.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\76.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\76.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=39 "Built target 76"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=41 "Built target 76"
 .PHONY : CMakeFiles\76.dir\all
 
 # Build rule for subdir invocation for target.
@@ -2256,7 +2294,7 @@ CMakeFiles\76.dir\clean:
 CMakeFiles\567.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\567.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\567.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\567.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\567.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=37 "Built target 567"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=38 "Built target 567"
 .PHONY : CMakeFiles\567.dir\all
 
 # Build rule for subdir invocation for target.
@@ -2308,7 +2346,7 @@ CMakeFiles\438.dir\clean:
 CMakeFiles\27.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\27.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\27.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\27.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\27.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=24 "Built target 27"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=25 "Built target 27"
 .PHONY : CMakeFiles\27.dir\all
 
 # Build rule for subdir invocation for target.
@@ -2334,7 +2372,7 @@ CMakeFiles\27.dir\clean:
 CMakeFiles\241.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\241.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\241.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\241.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\241.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=21 "Built target 241"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=22 "Built target 241"
 .PHONY : CMakeFiles\241.dir\all
 
 # Build rule for subdir invocation for target.
@@ -2360,7 +2398,7 @@ CMakeFiles\241.dir\clean:
 CMakeFiles\283.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\283.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\283.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\283.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\283.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=25 "Built target 283"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=26 "Built target 283"
 .PHONY : CMakeFiles\283.dir\all
 
 # Build rule for subdir invocation for target.
@@ -2386,7 +2424,7 @@ CMakeFiles\283.dir\clean:
 CMakeFiles\26.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\26.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\26.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\26.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\26.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=23 "Built target 26"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=24 "Built target 26"
 .PHONY : CMakeFiles\26.dir\all
 
 # Build rule for subdir invocation for target.
@@ -2412,7 +2450,7 @@ CMakeFiles\26.dir\clean:
 CMakeFiles\83.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\83.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\83.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\83.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\83.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=40 "Built target 83"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=42 "Built target 83"
 .PHONY : CMakeFiles\83.dir\all
 
 # Build rule for subdir invocation for target.
@@ -2438,7 +2476,7 @@ CMakeFiles\83.dir\clean:
 CMakeFiles\990.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\990.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\990.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\990.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\990.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=44 "Built target 990"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=46 "Built target 990"
 .PHONY : CMakeFiles\990.dir\all
 
 # Build rule for subdir invocation for target.
@@ -2464,12 +2502,12 @@ CMakeFiles\990.dir\clean:
 CMakeFiles\301.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\301.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\301.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\301.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\301.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=28,29 "Built target 301"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=29 "Built target 301"
 .PHONY : CMakeFiles\301.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\301.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\301.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\301.dir\rule
@@ -2516,7 +2554,7 @@ CMakeFiles\310.dir\clean:
 CMakeFiles\875.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\875.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\875.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\875.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\875.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=41 "Built target 875"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=43 "Built target 875"
 .PHONY : CMakeFiles\875.dir\all
 
 # Build rule for subdir invocation for target.
@@ -2568,7 +2606,7 @@ CMakeFiles\1011.dir\clean:
 CMakeFiles\172.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\172.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\172.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\172.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\172.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=10 "Built target 172"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=12 "Built target 172"
 .PHONY : CMakeFiles\172.dir\all
 
 # Build rule for subdir invocation for target.
@@ -2594,7 +2632,7 @@ CMakeFiles\172.dir\clean:
 CMakeFiles\Freelent_Q1.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Freelent_Q1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Freelent_Q1.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Freelent_Q1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Freelent_Q1.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=51 "Built target Freelent_Q1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=53 "Built target Freelent_Q1"
 .PHONY : CMakeFiles\Freelent_Q1.dir\all
 
 # Build rule for subdir invocation for target.
@@ -2620,7 +2658,7 @@ CMakeFiles\Freelent_Q1.dir\clean:
 CMakeFiles\Freelent_Q2.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Freelent_Q2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Freelent_Q2.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Freelent_Q2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Freelent_Q2.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=52 "Built target Freelent_Q2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=54 "Built target Freelent_Q2"
 .PHONY : CMakeFiles\Freelent_Q2.dir\all
 
 # Build rule for subdir invocation for target.
@@ -2646,7 +2684,7 @@ CMakeFiles\Freelent_Q2.dir\clean:
 CMakeFiles\Freelent_D.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Freelent_D.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Freelent_D.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Freelent_D.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Freelent_D.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=50 "Built target Freelent_D"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=52 "Built target Freelent_D"
 .PHONY : CMakeFiles\Freelent_D.dir\all
 
 # Build rule for subdir invocation for target.
@@ -2664,6 +2702,136 @@ Freelent_D: CMakeFiles\Freelent_D.dir\rule
 CMakeFiles\Freelent_D.dir\clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Freelent_D.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Freelent_D.dir\clean
 .PHONY : CMakeFiles\Freelent_D.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/empty_func.dir
+
+# All Build rule for target.
+CMakeFiles\empty_func.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\empty_func.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\empty_func.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\empty_func.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\empty_func.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=99,100 "Built target empty_func"
+.PHONY : CMakeFiles\empty_func.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\empty_func.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\empty_func.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\empty_func.dir\rule
+
+# Convenience name for target.
+empty_func: CMakeFiles\empty_func.dir\rule
+.PHONY : empty_func
+
+# clean rule for target.
+CMakeFiles\empty_func.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\empty_func.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\empty_func.dir\clean
+.PHONY : CMakeFiles\empty_func.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/581.dir
+
+# All Build rule for target.
+CMakeFiles\581.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\581.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\581.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\581.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\581.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=39 "Built target 581"
+.PHONY : CMakeFiles\581.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\581.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\581.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\581.dir\rule
+
+# Convenience name for target.
+581: CMakeFiles\581.dir\rule
+.PHONY : 581
+
+# clean rule for target.
+CMakeFiles\581.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\581.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\581.dir\clean
+.PHONY : CMakeFiles\581.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/98.dir
+
+# All Build rule for target.
+CMakeFiles\98.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\98.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\98.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\98.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\98.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=45 "Built target 98"
+.PHONY : CMakeFiles\98.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\98.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\98.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\98.dir\rule
+
+# Convenience name for target.
+98: CMakeFiles\98.dir\rule
+.PHONY : 98
+
+# clean rule for target.
+CMakeFiles\98.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\98.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\98.dir\clean
+.PHONY : CMakeFiles\98.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/560.dir
+
+# All Build rule for target.
+CMakeFiles\560.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\560.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\560.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\560.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\560.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=37 "Built target 560"
+.PHONY : CMakeFiles\560.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\560.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\560.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\560.dir\rule
+
+# Convenience name for target.
+560: CMakeFiles\560.dir\rule
+.PHONY : 560
+
+# clean rule for target.
+CMakeFiles\560.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\560.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\560.dir\clean
+.PHONY : CMakeFiles\560.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/1109.dir
+
+# All Build rule for target.
+CMakeFiles\1109.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1109.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\1109.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1109.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\1109.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles --progress-num=4 "Built target 1109"
+.PHONY : CMakeFiles\1109.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\1109.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\1109.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Morphling\Desktop\UoE_2021_2022\STEP\Leetcode_22\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\1109.dir\rule
+
+# Convenience name for target.
+1109: CMakeFiles\1109.dir\rule
+.PHONY : 1109
+
+# clean rule for target.
+CMakeFiles\1109.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1109.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\1109.dir\clean
+.PHONY : CMakeFiles\1109.dir\clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

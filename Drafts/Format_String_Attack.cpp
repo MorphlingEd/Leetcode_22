@@ -2,7 +2,10 @@
 
 int main(int argc, char* argv[])
 {
-    printf("%08x.%08x.%08x.%08x.%08x.|%s|");
+    int *p = new int(2);
+
+    printf("hello%08x.%08x.%08x.%08x.%n", 2, 2, 2, 2, p);
+    printf("%d", *p);
 
     return 0;
 }
